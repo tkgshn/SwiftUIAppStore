@@ -9,8 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List {
+                FuturedRow()
+                ForEach(1..<3) { _ in
+                    CategoryRow()
+                }
+                
+                CategoryList()
+                CategoryRow()
+            }
+            .navigationBarTitle("H1(Title)")
+        }
     }
 }
 
