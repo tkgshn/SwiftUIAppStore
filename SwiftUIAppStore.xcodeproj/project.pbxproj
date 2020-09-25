@@ -62,9 +62,7 @@
 			children = (
 				C42F9C35251E05380082E648 /* SwiftUIAppStoreApp.swift */,
 				C42F9C37251E05380082E648 /* ContentView.swift */,
-				C42F9C44251E054D0082E648 /* CategoryRow.swift */,
-				C42F9C4A251E0B8E0082E648 /* CategoryList.swift */,
-				C42F9C48251E079E0082E648 /* FuturedRow.swift */,
+				C42F9C4C251E1A4E0082E648 /* Supporting Views */,
 				C42F9C46251E05900082E648 /* Detail.swift */,
 				C42F9C39251E05390082E648 /* Assets.xcassets */,
 				C42F9C3E251E05390082E648 /* Info.plist */,
@@ -79,6 +77,16 @@
 				C42F9C3C251E05390082E648 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C42F9C4C251E1A4E0082E648 /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				C42F9C44251E054D0082E648 /* CategoryRow.swift */,
+				C42F9C4A251E0B8E0082E648 /* CategoryList.swift */,
+				C42F9C48251E079E0082E648 /* FuturedRow.swift */,
+			);
+			path = "Supporting Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
